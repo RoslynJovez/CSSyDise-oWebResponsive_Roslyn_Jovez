@@ -1,0 +1,58 @@
+.Central{
+	background-color: #82c3a6;
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.Secundaria{
+	border: 1px;
+	display: flex;
+	flex-direction: row;
+	background-color: #d5c75f;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.Secundaria a{
+	color: black;
+	font-weight: bold;
+}
+.Secundaria img{
+	width: 350px;
+	margin-right: 50px;
+	margin-left: 50px;
+	box-shadow: 2px 2px 2px #02010a;
+}
+#imgcentral{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	box-shadow: 2px 2px 2px #02010a;
+}
+#paisajes:hover{
+	transform: rotate(10deg);
+	transition-duration: 0.8s;
+	box-shadow: 2px 2px 2px #82c3a6;
+}
+#retratos:hover{
+	transform: translate(-20px,5px);
+	transition-duration: 0.8s;
+	box-shadow: 2px 2px 2px #82c3a6;
+}
+
+@media (max-width:899px){
+	#imgcentral{
+		width: 50%;
+	}
+	.Secundaria{
+
+			display: block;
+	}
+	.Secundaria img{
+		width: 50%;
+	}
+}
